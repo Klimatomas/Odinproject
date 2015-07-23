@@ -55,6 +55,7 @@ body {
     bottom: 0;
     width: 100%;
     background-color: #F2F2F2;
+    font-size: small;
 }
 
 .nav-bot li {
