@@ -130,9 +130,25 @@ body {
 }
 
 .mike img{
-    position: relative;
-    top: -25px;
-    margin-left: 545px;
-    height: 20px;
-    color: #BBBBBB; 
+  position: relative;
+  top: 6px;
+  right: 25px;
+  height: 20px;
+  color: #BBBBBB;
+}
+.bell{
+    background-image:url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/images/sprite.png);
+    background-position: -69px -69px;
+    display: inherit;
+    width: 30px;
+    height: 30px;
+    
+}
+.grid{
+      background-image:url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/images/sprite.png);
+    background-position: -69px -854px;
+    display: inherit;
+    
+    width: 30px;
+    height: 30px;
 }
