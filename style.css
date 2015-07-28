@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: arial,sans-serif;
-
+    line-height: 2;
 }
 
 /* Header settings (top navbar) */
