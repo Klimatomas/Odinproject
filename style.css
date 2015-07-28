@@ -114,14 +114,15 @@ body {
     margin-left: 275px;
     bottom: 40px;
 }
-.user {
-    list-style-image: url(https://lh5.googleusercontent.com/-fexfG6WsACI/AAAAAAAAAAI/AAAAAAAAAAA/OkLDOYWjZy8/s32-c/photo.jpg);
-}
-.photo img{
-    background-image: url(https://lh5.googleusercontent.com/-fexfG6WsACI/AAAAAAAAAAI/AAAAAAAAAAA/OkLDOYWjZy8/s32-c/photo.jpg);
+
+.photo {
     display: block;
+    background-repeat: round;
+    background-image: url(https://lh5.googleusercontent.com/-fexfG6WsACI/AAAAAAAAAAI/AAAAAAAAAAA/OkLDOYWjZy8/s32-c/photo.jpg);
+    height: 30px;
+    width: 30px;
     border-radius: 100%;
-    margin-top: -5px;
+  
 }
 
 .buttons button{
