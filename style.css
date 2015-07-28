@@ -116,6 +116,8 @@ body {
 }
 
 .photo {
+    position: relative;
+    right: 15px;
     display: block;
     background-repeat: round;
     background-image: url(https://lh5.googleusercontent.com/-fexfG6WsACI/AAAAAAAAAAI/AAAAAAAAAAA/OkLDOYWjZy8/s32-c/photo.jpg);
