@@ -1,8 +1,3 @@
-a:hover{
-    text-decoration: underline !important
-}
-
-
 html {
 
     background-color: #FFFFFF;
@@ -12,6 +7,10 @@ body {
     font-family: arial,sans-serif !important;
     line-height: 2 !important;
 
+}
+
+a:hover{
+    text-decoration: underline !important
 }
 
 /* Header settings (top navbar) */
@@ -42,6 +41,40 @@ body {
     text-decoration: none;
 }
 
+
+.name a{
+ color: #BBBBBB !important;
+}
+
+
+.photo {
+    position: relative;
+    right: 15px;
+    display: block;
+    background-repeat: round;
+    background-image: url(https://lh5.googleusercontent.com/-fexfG6WsACI/AAAAAAAAAAI/AAAAAAAAAAA/OkLDOYWjZy8/s32-c/photo.jpg);
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+
+.bell{
+    background-image:url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/images/sprite.png);
+    background-position: -69px -69px;
+    display: inherit;
+    width: 30px;
+    height: 30px;
+    
+}
+.grid{
+      background-image:url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/images/sprite.png);
+    background-position: -69px -854px;
+    display: inherit;
+    
+    width: 30px;
+    height: 30px;
+}
 /* Logo, search bar + buttons */
 
 .logo {
@@ -61,7 +94,6 @@ body {
     height: 27px;
     
 }
-
 .buttons {
     text-align: center;
 
@@ -90,12 +122,6 @@ body {
     float: right;
 }
 
-
-.name a{
- color: #BBBBBB !important;
-}
-
-
 .nav-bot li a {
     color: #4c4c4c;
     text-decoration: none;
@@ -115,17 +141,6 @@ body {
     bottom: 40px;
 }
 
-.photo {
-    position: relative;
-    right: 15px;
-    display: block;
-    background-repeat: round;
-    background-image: url(https://lh5.googleusercontent.com/-fexfG6WsACI/AAAAAAAAAAI/AAAAAAAAAAA/OkLDOYWjZy8/s32-c/photo.jpg);
-    height: 30px;
-    width: 30px;
-    border-radius: 100%;
-  
-}
 
 .buttons button{
   border-style: solid;
@@ -145,21 +160,4 @@ body {
   right: 25px;
   height: 20px;
   color: #BBBBBB;
-}
-
-.bell{
-    background-image:url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/images/sprite.png);
-    background-position: -69px -69px;
-    display: inherit;
-    width: 30px;
-    height: 30px;
-    
-}
-.grid{
-      background-image:url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/images/sprite.png);
-    background-position: -69px -854px;
-    display: inherit;
-    
-    width: 30px;
-    height: 30px;
 }
